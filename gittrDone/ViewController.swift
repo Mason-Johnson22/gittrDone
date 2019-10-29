@@ -9,9 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var larryPic: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    let larry = UIImage(named: "Larry")
         heyDeath()
     }
     func heyDeath() {
